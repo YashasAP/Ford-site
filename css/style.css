@@ -1,0 +1,195 @@
+body {
+    background-color: rgb(232, 253, 253);
+
+}
+
+
+
+/* body*/
+body{
+    margin: 0;  /*making default margin 0*/
+}
+#topbar{
+    background-color: #576574;
+    padding-top: 18px;      /*making topbar fit*/
+    padding-bottom: 18px;
+
+    overflow: auto;   /*fixesoverflow of items*/
+}
+.unipadding{
+    padding: 0 7%;    /* padding:top/bot left/right*/
+}
+#social-icon{
+    float: right;
+}
+#toll-free{
+    float: left;
+    color: white;
+    margin: 0;
+}
+.fa-brands{
+    color: white;
+    
+}
+/*logo*/
+#logobar img{
+    width: 155px;
+    height: 61px;
+    margin: 5px 0;
+
+}
+/*nav bar*/
+#navbar
+{
+    background-color: #ff0606e9;
+}
+#navbar ul li{
+    display: inline-block   ;
+    padding :20px 0;
+    padding-right:35px ;
+    color: white;
+    font-size: 17px;
+}
+#navbar ul a{
+    text-decoration: none;
+}
+#navbar ul{
+    margin: 0;
+    padding-left:0 ;
+}
+
+/*poster*/
+
+#poster{
+    background-image: url(../images/poster.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    flex-direction: column;
+    color: white;
+}
+#poster h1{
+
+    font-size: 70px;
+}
+#poster p{
+    text-align: center;
+    font-size: 30px;
+}
+/*why us */
+#whysection{
+    overflow: auto;
+    
+}
+#whysection h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section33{
+    width: 33.33%;
+    float: left;
+    
+}
+.section33 img{
+    height: 90%;
+    width: 90%;
+    
+    display: flex;
+    
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.section33 p{
+
+    /*padding-left: 40px;*/
+    display: flex;
+    
+    
+    text-align: center;
+    height: 90%;
+    width: 90%;
+}
+.red-text{
+    font-size: 37px;
+    color: red;
+}
+
+/*contact section*/
+#contact{
+    background-color:#ff0606e9 ;
+    overflow: auto;
+}
+.section70{
+    width: 70%;
+    float: left;
+    color: antiquewhite; 
+}
+.section70 p{
+    font-size: small;
+}
+.section30{
+    width: 30%;
+    float: left;
+    text-align: center;
+     padding-top:50px ;
+}
+.contact-btn{
+    text-decoration: none;
+    padding: 15px 40px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    color: rgb(12, 6, 6);
+    font-weight: bold;
+    
+    
+}
+
+
+/*footer*/
+#imp-link{
+    background-color: #576574;
+    color: white;
+    overflow: auto;
+}
+.div33{
+    width: 33.33%;
+    float: left;
+    padding: 15px 50px;
+    box-sizing: border-box;   /*used because width and padding are added *//*now solved*/
+}
+.div33 h3{
+   text-decoration: underline;
+   text-underline-offset: 5px;
+   text-decoration-thickness:2px; 
+   
+}
+.footer-menu{
+    list-style-type:none;
+    padding: 0;
+
+}
+.footer-menu li{
+    padding-bottom:8px ;
+    
+}
+.footer-menu a{
+    text-decoration: none;
+    color: white;
+}
+.footer-menu-container{
+    padding-left: 100px;
+}
+#copyright{
+    text-align: center;
+    color: #cbcbcb;
+    background-color: #222f3e;
+    padding: 10px;
+}
+
+
